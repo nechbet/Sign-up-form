@@ -1,1 +1,7 @@
-/*# sourceMappingURL=style.css.map */
+.container {
+  min-height: 100vh;
+}
+.container .imageLogo {
+  background-image: url("../img/backgroundimg.jpg");
+  background-position: center;
+}/*# sourceMappingURL=style.css.map */
