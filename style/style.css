@@ -1,7 +1,25 @@
 .container {
   min-height: 100vh;
+  display: flex;
 }
 .container .imageLogo {
   background-image: url("../img/backgroundimg.jpg");
   background-position: center;
+  background-size: cover;
+  flex: 3;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  color: white;
+  text-align: center;
+}
+.container .imageLogo .logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  width: 100px;
+  font-size: 5.5rem;
+  margin-top: 20vh;
+  padding: 100px;
 }/*# sourceMappingURL=style.css.map */
