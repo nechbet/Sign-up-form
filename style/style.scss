@@ -24,11 +24,26 @@
     };
 };
   .form {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+    padding: 150px 50px;
+    p {
+      text-align: center;
+    }
+
+    .input-section {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        column-gap: 84px;
+        row-gap: 18px;
+        margin-bottom: 18px;
+    }
+    .submit-button {
+      text-align: center;
+    }
     
   };
+
+
 
 };
 
