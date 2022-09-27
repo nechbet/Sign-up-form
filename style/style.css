@@ -1,6 +1,7 @@
 .container {
   min-height: 100vh;
   display: flex;
+  font-family: "'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif'";
 }
 .container .imageLogo {
   background-image: url("../img/backgroundimg.jpg");
@@ -24,6 +25,9 @@
 }
 .container .form p {
   text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  margin: 25px;
 }
 .container .form .input-section {
   display: flex;

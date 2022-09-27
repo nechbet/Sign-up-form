@@ -1,6 +1,7 @@
 .container {
   min-height: 100vh;
   display: flex;
+  font-family: "'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif'";
   
 
   .imageLogo {
@@ -27,6 +28,9 @@
     padding: 150px 50px;
     p {
       text-align: center;
+      font-size: 24px;
+  font-weight: bold;
+  margin: 25px;
     }
 
     .input-section {
